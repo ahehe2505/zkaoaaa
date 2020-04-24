@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="ch">
+<head>
+    <!-- Metas -->
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="" />
+    <!-- Links -->
+    <link rel="icon" type="image/png" href="images/1.jpg" /> <!--图标-->
+    <link href="https://fonts.googleapis.com/css?family=Work+Sans:400,600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="icofont.min.css">
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <link href="css/slick.css" rel="stylesheet" />
+    
+    <link href="css/main.css" rel="stylesheet" />
+    <!-- Document Title -->
+    <title>ahehe | 中考倒计时</title>
+</head>
+<body>
+ 
+    <!-- HERO SECTION -->    
+    <div class="container-fluid hero">
+      <img src="images/hero.svg" alt="">
+      <div class="container">
+        <!-- Hero Title -->
+        <h1>今天是</h1><h2><!-- 定义一个id为cg -->
+<span id="cg"></span>
+<script>
+<!--这个cg就是span的id，初始化Date时间并转化为百字符string类型,每1000毫秒，setInterval() 就会调用函度数，直到被关闭。-->
+setInterval("cg.innerHTML=new Date().toLocaleString()",1000);
+</script></h2>
+    <div class="container-fluid hero">
+      <img src="images/hero.svg" alt="">
+
+        <!-- Hero Title -->
+        <h1>距离2020年中考还有</h1><h2>
+		<script type="text/javascript">
+		var time_now_server,time_now_client,time_end,time_server_client,timerID;
+		
+		            time_end=new Date("2020/7/20 00:00:0");//结束的时间
+		            time_end=time_end.getTime();
+		
+		            time_now_server=new Date();
+		            time_now_server=time_now_server.getTime();
+		
+		            time_now_client=new Date();
+		            time_now_client=time_now_client.getTime();
+		
+		            time_server_client=time_now_server-time_now_client;
+		
+		            setTimeout("show_time()",1000);
+		
+		            function show_time()
+		            {
+		            var timer = document.getElementById("timer");
+		            if(!timer){
+		            return ;
+		            }
+		            timer.innerHTML =time_server_client;
+		
+		            var time_now,time_distance,str_time;
+		            var int_day,int_hour,int_minute,int_second;
+		            var time_now=new Date();
+		            time_now=time_now.getTime()+time_server_client;
+		            time_distance=time_end-time_now;
+		            if(time_distance>0)
+		            {
+		            int_day=Math.floor(time_distance/86400000)
+		            time_distance-=int_day*86400000;
+		            int_hour=Math.floor(time_distance/3600000)
+		            time_distance-=int_hour*3600000;
+		            int_minute=Math.floor(time_distance/60000)
+		            time_distance-=int_minute*60000;
+		            int_second=Math.floor(time_distance/1000)
+		
+		            if(int_hour<10)
+		            int_hour="0"+int_hour;
+		            if(int_minute<10)
+		            int_minute="0"+int_minute;
+		            if(int_second<10)
+		            int_second="0"+int_second;
+		            str_time=int_day+"天"+int_hour+"小时"+int_minute+"分钟"+int_second+"秒";
+		            timer.innerHTML=str_time;
+		            setTimeout("show_time()",1000);
+		            }
+		            else
+		            {
+		            timer.innerHTML =timer.innerHTML;
+		            clearTimeout(timerID)
+		            }
+		            }
+		            </script>
+		            <div id="timer"></div>
+		            <hr></h2>
+        <!-- Hero Title Info -->
+        
+
+
+  <!-- CONTACT SECTION -->
+  <section id="contact-us" class="contact">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <h2>放飞梦想</h2>
+          <h5>2020 未来可期 中考等我</h5>
+        </div>
+      </div>
+<iframe height="700" width=100% src="https://wj.qq.com/s2/5962010/c229/" frameborder="0" allowfullscreen></iframe>
+该倒计时以广东中考2020-7-20为例<br>
+虽然我写的代码很乱，但是效果挺好的，你们千万不要去看源代码，千万不要~~~</font><br>
+<font color="grey">网页制作者：ahehe</font><br>
+            </h5><font color="grey"><a href="https://jq.qq.com/?_wv=1027&amp;k=5a9wfrU" target="blank">加入我们</a> <a target="_blank" href="http://wpa.qq.com/msgrd?v=3&amp;uin=208947354&amp;site=qq&amp;menu=yes">点这里给我发消息</a></font>
+        </center><!-- Baidu Button BEGIN -->
+        <script type="text/javascript" id="bdshare_js" data="type=slide&amp;img=0&amp;pos=right&amp;uid=11824">
+</script><script type="text/javascript" id="bdshell_js">
+</script><script type="text/javascript">
+var bds_config = {"bdTop":155};
+        document.getElementById("bdshell_js").src = "http://bdimg.share.baidu.com/static/js/shell_v2.js?cdnversion=" + new Date().getHours();
+        </script><!-- Baidu Button END -->
+        <font color="grey"><br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br></font>
+</body>
+</html>
